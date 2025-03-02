@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django_extensions', #Great packaged to access abstract models
     'django_filters', #Used with DRF
     'rest_framework', #DRF package
+    'rest_framework.authtoken', #Used to enable token authentication
     'core',
     'ecommerce', # New app
 ]
